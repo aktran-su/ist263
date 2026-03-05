@@ -17,3 +17,7 @@ nav a {color: #FFFFF0}
 
 .row {float: left}
 .col {float: right}
+
+body {
+  margin: 0;
+}
