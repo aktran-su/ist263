@@ -1,0 +1,23 @@
+
+b {font-family: Arial, Helvetica, sans-serif;} 
+body {background-color: #fff4e6;} 
+
+p {color: #3c2f2f } h1,
+
+h2 {color:#854442;}.evenrow {color:brown;}
+h1 {font-size: 5em};
+h2 {font-size:3em};
+.evenrow {background-color:lightblue;}
+
+nav {background-color: #670826; padding:10px; margin-bottom:30px;} 
+nav a:hover {background-color: #adcbe3;}
+nav a {color: #FFFFF0}
+
+.quote {float : right;}
+
+.row {float: left}
+.col {float: right}
+
+body {
+  margin: 0;
+}
