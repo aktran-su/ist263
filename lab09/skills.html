@@ -5,8 +5,13 @@
     <link rel="stylesheet" href="styles.css">
     <title>Skills</title>
     <style>
-    table,th,td {border:1px solid black;}
-    h1 {text-align: center; margin-top: 1em; margin-bottom: 1em;}
+    table,th,td {border:1px solid black; padding: 1em; text-align: left;}
+    h1 {text-align: center; margin: 1em;}
+    .skillstable table {margin: 0 auto;}
+    .skillsimage {text-align: center; padding: 3em;}
+    .firstrow {display: flex; background-color: white; margin:2em}
+    .skillstable, .skillsimage {flex-basis: 50%;}
+
     </style>
 </head>
 <body>
@@ -17,8 +22,11 @@
         <a href="contact.html">Contact</a>
     </nav>
 
-    <h1>Technical Skills</h1>
 
+<h1>Technical Skills</h1>
+<div class="firstrow">
+
+  <div class="skillstable">
     <table>
     <caption>Technical Skills</caption>
     <tr>
@@ -86,8 +94,16 @@
       <td>Violin</td>
       <td>Experienced</td>
     </tr>
-
+  
 </table>
+</div>
+
+ <div class="skillsimage">
+  <img src="https://peopel-su.github.io/ist263/images/skill_3775447.png" alt="Skills Image">
+ </div>
+
+ </div>
+
 </body>
 </html>
 
