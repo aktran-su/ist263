@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+  .row{display:flex; flex-wrap: wrap; width: 100%; padding: 2em;}
+  .col1{flex:1; padding: 2em; background-color: #FFFFFF; border-radius: 1em;}
+  .col2{flex:3; padding: 4em; background-color: #FFFFFF; border-radius: 1em;}
+  .col3, .col4 {flex:3; padding: 2em; background-color: #FFFFFF; border-radius: 1em;}
+  </style>
+</head>
+
+<body>
+  <nav>
+        <a href="index.html">Home</a> |
+        <a href="skills.html">Skills</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+ <h1>Contact</h1>
+<!--ROW 1-->
+
+<div class = "row">
+  <div class = "col1">
+  <p>Alyssa Tran</p>
+  <p>7414 15th Ave</p>
+  <p>Brooklyn, NY 11228</p>
+</div>
+
+<div class = "col2">
+  <a href="mailto:aktran@syr.edu">Alyssa Tran Email</a>
+  <a href="https://www.linkedin.com/in/alyssa-tran-926100223">My LinkedIn Profile</a>
+  <img src="../images/logo_sized.png" alt = "My LinkedIn Profile logo">
+</div>
+
+</div>
+
+<!--ROW 2-->
+<div class = "row">
+<div class = "col3">
+
+<form action="https://formspree.io/f/xreazzvo"method="POST">
+
+
+<p>Your Name:</p>
+<input type="text" id="name" name="name"><br>
+
+<input type="checkbox" id="type1" name="type1" value="Student">
+<label for="type1"> I am a student</label>
+
+<input type="checkbox" id="type2" name="type2" value="Teacher">
+<label for="type2"> I am a teacher</label>
+
+<input type="checkbox" id="type3" name="type3" value="Other">
+<label for="type3"> Other</label>
+
+<label for="comments">Comments:</label>
+<textarea id="comments" name="comments" rows="4" cols="50">
+</textarea><br>
+
+<input type="submit" value="send form">
+
+</form>
+</div>
+
+  
+<div class = "col4">
+    <p></p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24228.314351961926!2d-74.0234326544933!3d40.6179872776923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24515a330f483%3A0x424d47bf9300db51!2s7414%2015th%20Ave%2C%20Brooklyn%2C%20NY%2011228!5e0!3m2!1sen!2sus!4v1769635690421!5m2!1sen!2sus" width=100%; height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+</div>
+</body>
+</html>
