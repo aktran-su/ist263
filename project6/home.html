@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <link rel="stylesheet" href="home_style.css">
+
+  <style>
+    .home_img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: column; 
+      background-color: #fcf6bd;
+      align-items: center;    
+      padding: 30px;
+      gap: 20px;
+    }
+
+    .text {
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+      max-width: 700px;
+    }
+
+    .sidebar {
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    }
+
+  
+
+    /* 📱 MEDIA QUERY */
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  
+  <nav>
+    <a href="home.html">Home</a> 
+    <a href="basics.html">Piercing Basics</a> 
+    <a href="info.html">Piercing Information</a> 
+  </nav>
+
+  <h1>All Things Earrings!</h1>
+
+  <img src="../project5/site-media/variety.png" class="home_img" alt="Home Page Image">
+
+  <div class="main">
+
+    <div class="text">
+      <p>
+        Throughout history, the act of piercings has been practiced for thousands of years across many cultures as forms of self-expression, spirituality, and social identity. Archaeological evidence shows ear piercings in ancient civilizations such as Egypt, where jewelry symbolized wealth and status, and in South Asia, where piercings were connected to religious and cultural traditions. Indigenous cultures across Africa and America also used body piercings to mark rites of passage, beauty standards, or community belonging. In modern times, piercings have shifted from traditional and ritual meanings to mainstream fashion and personal expression, reflecting changing social norms and individual identity. Just over the past decade, body modifications and piercings have risen in popularity, which makes it important to consider what types are available, how to find a reputable piercer, what jewelry is right for your body, and most importantly, how to care for your new piercing! The process can be daunting for new customers, but it doesn’t have to be. Caring for your new piercing means looking to care for your body in a new way, and it takes commitment.
+      </p>
+    </div>
+
+    <div class="sidebar">  
+      <p><strong>PIERCING TYPES</strong></p> 
+      <ul>
+        <li>Lobe</li>
+        <li>Cartilage</li> 
+        <li>Conch</li> 
+        <li>Daith</li> 
+        <li>Rook</li> 
+        <li>Nose</li> 
+        <li>Lip</li> 
+        <li>Naval</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2026</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  text-align: center;
+  background-color: #efcfe3;
+  padding: 15px 0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: bold;
+  color: #333;
+}
+
+/* TITLE */
+h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-align: center;
+  background-color: #efcfe3;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+
+footer {
+  text-align: left;
+  background-color: #fcf6bd;
+  padding: 5px;
+}
