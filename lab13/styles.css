@@ -11,7 +11,7 @@ h2 {font-size:3em};
 
 nav {background-color: #670826; padding:10px; margin-bottom:30px;} 
 nav a:hover {background-color: #adcbe3;}
-nav a {color: white; font-weight: bold;}
+nav a {color: white; font-weight: bold; font-size: 2em;}
 
 .quote {float : right;}
 
