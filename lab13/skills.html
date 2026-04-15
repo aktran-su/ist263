@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      padding: 1em;
+      text-align: left;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 1em;
+    }
+
+    .skillstable table {
+      margin: 0 auto;
+    }
+
+    .skillsimage {text-align: center; padding: 10em;
+     
+    }
+
+    .firstrow {
+      display: flex;
+      background-color: white;
+      margin: 2em;
+    }
+
+    .skillstable, .skillsimage {
+      flex-basis: 50%;
+    }
+
+  
+    .skip {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #000;
+      color: #fff;
+      padding: 8px;
+      z-index: 100;
+    }
+
+    .skip:focus {
+      top: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <a href="#main" class="skip">Skip to main content</a>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a> <span aria-hidden="true">|</span>
+    <a href="skills.html">Skills</a> <span aria-hidden="true">|</span>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Technical Skills</h1>
+</header>
+
+<main id="main">
+
+  <section class="firstrow" aria-labelledby="skills-heading">
+    <h2 id="skills-heading" class="visually-hidden"></h2>
+
+    <div class="skillstable">
+      <table>
+        <caption>Technical Skills</caption>
+
+        <thead>
+          <tr>
+            <th scope="col">Category</th>
+            <th scope="col">Skill</th>
+            <th scope="col">Competency Level</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Technology</td>
+            <td>Web Design</td>
+            <td>Beginner</td>
+          </tr>
+
+          <tr>
+            <td>Technology</td>
+            <td>Coding</td>
+            <td>Intermediate</td>
+          </tr>
+
+          <tr>
+            <td>Technology</td>
+            <td>AI</td>
+            <td>Experienced</td>
+          </tr>
+
+          <tr>
+            <td>Arts</td>
+            <td>Drawing</td>
+            <td>Beginner</td>
+          </tr>
+
+          <tr>
+            <td>Arts</td>
+            <td>Pottery</td>
+            <td>Intermediate</td>
+          </tr>
+
+          <tr>
+            <td>Arts</td>
+            <td>Writing</td>
+            <td>Experienced</td>
+          </tr>
+
+          <tr>
+            <td>Music</td>
+            <td>Drums</td>
+            <td>Beginner</td>
+          </tr>
+
+          <tr>
+            <td>Music</td>
+            <td>Piano</td>
+            <td>Intermediate</td>
+          </tr>
+
+          <tr>
+            <td>Music</td>
+            <td>Electric Guitar</td>
+            <td>Experienced</td>
+          </tr>
+
+          <tr>
+            <td>Music</td>
+            <td>Violin</td>
+            <td>Experienced</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="skillsimage">
+      <img src="https://peopel-su.github.io/ist263/images/skill_3775447.png" 
+           alt="">
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Alyssa Tran</p>
+</footer>
+
+</body>
+</html>
+
+
+     
