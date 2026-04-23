@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+nav {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  background-color: #efcfe3;
+  padding: 15px 0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: bold;
+  color: #333;
+}
+
+/* TITLE */
+h1, h2, h3, h4 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  background-color: #efcfe3;
+  margin: 0;
+  padding-top: 28px;
+  padding-bottom: 8px;
+}
+
+
+footer {
+  text-align: left;
+  background-color: #fcf6bd;
+  padding: 5px;
+}
