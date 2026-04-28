@@ -8,7 +8,7 @@ nav {
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   background-color: #efcfe3;
-  padding: 15px 0;
+  padding: 13px 0;
 }
 
 nav a {
@@ -27,10 +27,6 @@ nav a {
   padding-bottom: 8px;
 }
 
-h2, h3, h4 {
-  font-size: 30px;
-}
-
 
 footer {
   text-align: left;
@@ -44,4 +40,8 @@ h1 {
    font-size: 70px;
   font-weight: 500;
   font-style: normal;
+}
+
+p {
+  font-size: 18px;
 }

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Piercing Information</title>
      <link rel="stylesheet" href="home_style.css">
 <link rel="shortcut icon" type="image/x-icon" href="../project7/site-media/favicon.ico">
@@ -10,11 +12,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
     <style>
-        @media (max-width: 768px) {
-      nav a {
-        display: block;
-        margin: 10px 0;
-      }}
+   
+        
 body{ background-color: #f3f3f2 }
 
 .note{ 
@@ -26,22 +25,30 @@ body{ background-color: #f3f3f2 }
     border-radius: 15px;
     font-size: 20px;
 }
-h5{
-  font-size: 20px;
+
+h3{
+  font-size: 50px;
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 
 .col1 { 
   display: flex;
-  align-items: flex-start;
-  text-align:left; 
-  padding:30px; 
-  margin:50px;
-   gap: 50px;
+  align-items: center;
+  justify-content: center;   
+  text-align: left; 
+  padding: 30px; 
+  margin: 50px auto;        
+  gap: 50px;
+  
+
+}
+.col1 img {
+  width: 500px;
 }
 
 .lobe-text {
-  text-align: left;
   padding: 10px ;
   margin: 0;
   max-width: 400px;
@@ -51,28 +58,33 @@ h5{
   display:flex;
   flex-wrap:wrap;
   background-color: #ecc5aa;
-  padding: 30px;
+  padding: 40px;
   border-radius: 15px;
   font-size: 20px;
   max-width: 500px;
-  margin: 0;
+  margin: 10px;
 }
 .grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   margin: 50px;
+  justify-content: center;
 }
-.card {
-  width: 30%;
-  box-sizing: border-box;
-  padding: 15px;
-  text-align: center;
+  .card {
+  width: 100%;
+  max-width: 350px;
 }
 
 .card img {
   width: 100%;
   height: auto;
+}
+
+h4 {
+  text-align: center;
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
     </style>
@@ -93,26 +105,26 @@ dependent than others. It’s important to check with your piercer if you have a
 a piercing and if it is right for you. </strong></p>
 </div>
 
-<h5><bold>DIFFERENT TYPES OF PIERCINGS </bold></h5>
+<h3><bold>DIFFERENT TYPES OF PIERCINGS </bold></h3>
 
 
 <div class="col1">
 <!--Lobe-->
 <div>
-<p><strong>Lobe</strong></p>
+<h4>LOBE</h4>
 
- <img src="../project5/site-media/lobe.png" alt = "lobe">
+ <img src="../project7/site-media/lobe.png" alt = "lobe">
 
 <div class="lobe-text">
 <p>Lobe piercings are the most common type of piercing, and most people start out with these since 
 they are very low in pain and easy to heal! You can get both lobes pierced at once, and by 
-following traditional aftercare, they only take around 3-4 months to heal.I recommend getting a flatback style 
-earring, as well as for any other piercings you decide to get since they are more comfortable and less likely to snag.</p>
+following traditional aftercare, they only take around 3-4 months to heal. I recommend getting a flatback style 
+earring for any cartilage piercings you decide to get since they are more comfortable and less likely to snag.</p>
 </div>
 </div>
 <!--Lobe End-->
 <div class="note2">
-<p> NOTE</p>
+<h4> NOTE</h4>
 <p>All piercings after the lobe require the “downsizing” of a post. When jewelry is initially 
 inserted, the length of the bar, or the “post” is usually 1-2 millimeters longer to accommodate 
 swelling and must be downsized around 6-8 weeks after the initial piercing, or whenever 
@@ -122,11 +134,13 @@ the post can cause snagging, small irritation bumps, as well as slow down the he
 </div>
 </div>
 
+
+
 <div class="grid">
 
 <div class="card">
-<p>CARTILAGE</p>
-<img src="../project5/site-media/helix.png" alt = "helix">
+<h4>CARTILAGE</h4>
+<img src="../project7/site-media/helix.png" alt = "helix">
 <p>Cartilage piercings are pierced on the harder, fleshy part of the ear. The most common 
 placements are the “Helix” that sits on the upper part of the ear, or the “Tragus”, which is that 
 small fleshy bit just in front of the ear canal. Most people get their helix done after their lobes but 
@@ -135,8 +149,8 @@ helix and tragus are healed, a popular style is to put a small hoop in.</p>
 </div>
 
 <div class="card">
-<p> CONCH</p>
-<img src="../project5/site-media/conch.jpg" alt = "conch">
+<h4> CONCH</h4>
+<img src="../project7/site-media/conch.jpg" alt = "conch">
 <p>The conch is exactly what is sounds like, it sits in the middle of the ear, in an area that resembles 
 a conch shell! This piercing receives mixed reviews in pain tolerance, with some customers 
 reporting longer healing times than others. Since it sits comfortably in the center of the ear, it is 
@@ -146,8 +160,8 @@ piercing.</p>
 </div>
 
 <div class="card">
-<p>DAITH</p>
-<img src="../project5/site-media/daith.png" alt = "daith">
+<h4>DAITH</h4>
+<img src="../project7/site-media/daith.png" alt = "daith">
 <p>Daith piercings sit in the inner cartilage of the ear and are the only ear piercing that can initially 
 be fitted with a hoop! Some customers report a small “crunch” sensation during the piercing and 
 experience mild to moderate pain. Healing typically takes about 9–12 months, as it is a cartilage 
@@ -156,8 +170,8 @@ frequency or severity of migraines. </p>
 </div>
 
 <div class="card">
-<p>ROOK</p>
-<img src="../project5/site-media/rook.jpg" alt = "rook">
+<h4>ROOK</h4>
+<img src="../project7/site-media/rook.jpg" alt = "rook">
 <p>Rook piercings sit on the small shelf of the upper inner part of the ear and must be pierced with a 
 curved barbell. Personally, this had been one of my most painful piercings with a slight burn but 
 had an easy healing process as it is located inside the ear. Once the healing of 9-12 months is 
@@ -165,8 +179,8 @@ complete, some change the jewelry into a hoop.</p>
 </div>
 
 <div class="card">
-<p>NOSE</p>
-<img src="../project5/site-media/nose.jpg" alt = "nose">
+<h4>NOSE</h4>
+<img src="../project7/site-media/nose.jpg" alt = "nose">
 <p>Nose piercings are placed on the nostril or septum and are popular for their versatility and subtle 
 appearance. Nostril piercings typically heal faster than cartilage piercings, with an average 
 healing time of 2–4 months, while septum piercings may heal slightly faster. Initial jewelry is 
@@ -176,8 +190,8 @@ frequent contact of other germs.</p>
 </div>
 
 <div class="card">
-<p>LIP</p>
-<img src="../project5/site-media/lip.jpg" alt = "lip">
+<h4>LIP</h4>
+<img src="../project7/site-media/lip.jpg" alt = "lip">
 <p>Lip piercings, such as labret or vertical labret piercings, pass through both skin and lip tissue, 
 which can affect healing. Initial healing generally takes 6–8 weeks, with full healing around 3–4 
 months. Oral hygiene is especially important, and wearers should avoid playing with the jewelry 
@@ -188,11 +202,11 @@ be upgraded to a hoop after a full healing process.</p>
 </div>
 
 <div class="card">
-<p>EYEBROW</p>
-<img src="../project5/site-media/eyebrow.png"   alt = "eyebrow">
+<h4>EYEBROW</h4>
+<img src="../project7/site-media/eyebrow.png"   alt = "eyebrow">
 <p>If you are opting for a unique look, the eyebrow piercing is a great option. Pierced above the corner 
   of the brow, a curved barbell is marked and pierced through the cartilage. Full healing takes aroung 6 months
-  and this piercing is definetly prone to rejection as it sits on the face, where it can easilly snag on clothes or hair.
+  and this piercing is definitely prone to rejection as it sits on the face, where it can easilly snag on clothes or hair.
   The area should be kept clean from any makeup or other skin products as well.
 
 </p>
@@ -200,8 +214,8 @@ be upgraded to a hoop after a full healing process.</p>
 </div>
 
 <div class="card">
-<p>NAVAL</p>
-<img src="../project5/site-media/naval.jpg" alt = "naval">
+<h4>NAVAL</h4>
+<img src="../project7/site-media/naval.jpg" alt = "naval">
 <p>Naval piercings are placed through the rim of the belly button and are anatomy-dependent, 
 meaning not everyone is suited for one. Healing can be slow due to movement and friction from 
 clothing, as well as the movement of sitting down which can squeeze the bellybutton. Full 

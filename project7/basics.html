@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Piercing Basics</title>
      <link rel="stylesheet" href="home_style.css">
 <link rel="shortcut icon" type="image/x-icon" href="../project7/site-media/favicon.ico">
@@ -21,12 +23,11 @@
     body{ background-color: #fcf6bd }
 
     .row1 {
-  display: flex;          
-  align-items: center;
-  gap: 20px;
-  margin: 50px;
-  padding: 50px;
-}
+     flex-direction: column;
+    margin: 20px;
+    text-align: center;
+  }
+
 
     .rep {
     display: flex;
@@ -37,38 +38,40 @@
     border-radius: 15px;
     }
 
+.type-text {
+  background-color: white;
+  padding: 30px;
+  margin: 60px;
+   margin-left: 100px;
+  border-radius: 15px;
+  max-width: 700px;   /* controls how wide it can be */
+}
 
 .type-metal-row {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-  margin: 50px;
-}
-.type-text {
  display: flex;
-    flex-wrap: wrap;
-    background-color:white;
-    padding: 30px;
-    margin: 50px;
-    border-radius: 15px;
-    }
+   align-items: flex-start;
 
+  gap: 10px;
+}
 .metal {
-  display: flex;          
-  align-items: right;
+margin: 20px;
+padding: 20px;
+  
 }
 .metal img {
-  width: 200px;
+  max-width: 300px;
   height: auto;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .cleaning img{ 
- padding:10px;
-   width: 305px;  
+ padding: 5px;
+   width: 350px;  
 }
 
 .cleaning2 img {
-  width: 350px;   
+  width: 300px;   
   height: auto;
 }
 
@@ -89,6 +92,10 @@
   margin: 50px;
 }
 
+h2 {     /* style this */
+  font-size: 30px;
+}
+
    </style>
    </head>
   <body>
@@ -103,7 +110,7 @@
 
 <!--Rep Piercer-->
   <div class="row1">
-      <img src="../project5/site-media/reputable_piercer.png" alt = "piercer">
+      <img src="../project7/site-media/reputable_piercer.png" alt = "Professional piercer using a needle to pierce an ear">
 
   <div class="rep">
       <h2><strong>FINDING A REPUTABLE PIERCER</strong></h2>
@@ -121,7 +128,7 @@ ensure that your piercer uses a sterilized needle and keeps you safe in the pier
 <div class="type-metal-row">
 <div class="type-text">
 <!--JEWLERY TYPES-->
-<h3><strong>JEWLERY TYPES</strong></h3>
+<h2><strong>JEWLERY TYPES</strong></h2>
 <p>Reputable piercing shops typically offer jewelry made from implant-grade titanium, implant
 grade stainless steel, and solid gold. Implant-grade titanium is considered the safest option 
 because it is lightweight, corrosion-resistant, and truly hypoallergenic, making it ideal for initial 
@@ -135,8 +142,8 @@ money on high quality jewelry, starting off with surgical steel or titanium.</p>
 </div>
 
 <div class="metal">
-<img src="../project5/site-media/gold_earrings.jpg" alt = "gold">
-<img src="../project5/site-media/silver_earrings.png" alt = "silver">
+<img src="../project7/site-media/gold_earrings.jpg" alt = "Gold hoop earrings used for lobes">
+<img src="../project5/site-media/silver_earrings.png" alt = "Silver hoop earrings used for lobes">
 <!--Jewlery Types End-->
 </div>
 </div>
@@ -145,11 +152,11 @@ money on high quality jewelry, starting off with surgical steel or titanium.</p>
 <div class="row2">
 <div class="cleaning">
 <!--Responsibilities-->
-<img src="../project5/site-media/cleaning.png" alt = "cleaning">
+<img src="../project7/site-media/cleaning.png" alt = "Person cleaning an ear piercing with saline solution">
 </div>
 
 <div class="responsibilities">
-<h4><strong>RESPONSIBILITIES</strong></h4>
+<h2><strong>RESPONSIBILITIES</strong></h2>
 <p>Piercing aftercare remains relatively consistent across all earring types, beginning with cleaning 
 the piercing 1–2 times daily using a sterile saline solution and gauze to gently remove buildup 
 and reduce the risk of infection. A highly recommended brand is NeilMed’s Piercing Aftercare 
@@ -161,7 +168,7 @@ may still be healing internally. </p>
 </div>
 
 <div class="cleaning2">
-<img src="../project5/site-media/neilmed.png" alt = "neilmed">
+<img src="../project7/site-media/neilmed.png" alt = "NeilMed piercing aftercare saline spray bottle">
 <!--Responsibilities End-->
 </div>
 </div>
