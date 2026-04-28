@@ -45,3 +45,39 @@ h1 {
 p {
   font-size: 18px;
 }
+
+/* ========== RESPONSIVE FIX ========== */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* prevent horizontal scrolling on small screens */
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .row1,
+  .type-metal-row,
+  .row2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rep,
+  .type-text,
+  .responsibilities {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+}
